@@ -1,0 +1,36 @@
+
+//TO find the type of the variable:
+
+var variable1 = [1,2,3,4];
+var variable2 = 4.15 ;
+
+function isArray(variable){
+    solution = variable.constructor.toString().indexOf("Array") > -1 ;
+    
+  return solution;
+}
+
+console.log(isArray(variable1));
+console.log(isArray(variable2));
+
+console.log("Some Space after first method");
+// 
+//Smae code for String
+
+//TO find the type of the variable:
+
+var variable3 = [1,2,3,4];
+var variable4 = 4.15 ;
+var variable5 = "Hell Yeah";
+
+function isString(something){
+    return something.constructor.toString().indexOf("String") > -1 ;
+  
+}
+
+console.log(isString(variable3));
+console.log(isString(variable4));
+console.log(isString(variable5));
+
+
+// 
